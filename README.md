@@ -17,7 +17,7 @@ Since this is a highly versatile dataset we have a common format for each sample
     "caption": "caption goes here",
     "dataset": "open_images_v4"
     "source_split": "train",
-    "original_language": "eng", # all narratives are in english so we can hardcode
+    "original_language": "eng",
   }
 }
 ```
