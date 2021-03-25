@@ -1,18 +1,19 @@
 import os
+import json
 
 # visual Genome captions
 def get_genome_captions(root_folder="../output/VG_100K_2"):
-
-  with open(os.path.join(root_folder, region_descriptions.json) as f:
+  reg_des_path = os.path.join(root_folder, "region_descriptions.json")
+  with open(reg_des_path) as f:
     regdes = json.load(f)
     
   captions = {}
   dropped = []
   for item in regdes:
     id = item["id"]
-    path = f"../VG_100K_2/VG_100K/{id}.jpg"
+    path = os.path.join(root_folder, f"VG_100K/{id}.jpg")
     if not os.path.exists(path):
-      path = f"../VG_100K_2/VG_100K_2/{id}.jpg"
+      path = os.path.join(root_folder, f"VG_100K_2/{id}.jpg")
     if not os.path.exists(path):
       dropped.append(id)
       continue
@@ -22,3 +23,4 @@ def get_genome_captions(root_folder="../output/VG_100K_2"):
     }
     
   return captions, dropped
+
