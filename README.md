@@ -2,7 +2,7 @@
 
 None of this code works yet. If you'd like to contribute, create a pull request! We need all the datasets we can get. Otherwise come back in a few weeks to check on progress.
 
-This repository includes metadata and instructions for downloading many captioned datasets. 
+This repository includes metadata and instructions for downloading many captioned datasets + generated captions from labels.
 
 Thanks to @yashbonde, we eventually intend to include generated captions for a variety of datasets that don't include captions.
 
@@ -45,12 +45,11 @@ Since this is a highly versatile dataset we have a common format for each sample
 |COCO 2017|52.44GB|287K|[torrent](https://academictorrents.com/details/74dec1dd21ae4994dfd9069f9cb0443eb960c962) [website](https://cocodataset.org/#download)| | |
 |Flickr 30k Captions (bad data, downloads duplicates)|8GB|31K|[kaggle](https://www.kaggle.com/hsankesara/flickr-image-dataset)| |✅| | 
 
-### Other Projects
+## Other Projects
 
 This a big community led effort, find more projects:
 * [`DALLE-pytorch`](https://github.com/lucidrains/DALLE-pytorch/)
 * [`dall-e-baby`](https://github.com/yashbonde/dall-e-baby)
-
 
 ## Connect with us
 
