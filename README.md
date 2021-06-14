@@ -1,4 +1,6 @@
-# (WIP) dalle-pytorch-datasets
+# (Archived) 
+
+## @robvanvolt has created a much more fleshed out version here: https://github.com/robvanvolt/DALLE-datasets
 
 None of this code works yet. If you'd like to contribute, create a pull request! We need all the datasets we can get. Otherwise come back in a few weeks to check on progress.
 
